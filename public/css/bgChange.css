@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.5s;
+}
+
+.text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
+.btnWhite {
+  background-color: white;
+}
+
+.btnBlack {
+  background-color: black;
+}
+
+.btnGray {
+  background-color: gray;
+}
+
+.btnRed {
+  background-color: red;
+}
+
+.btnGreen {
+  background-color: green;
+}
+
+.btnBlue {
+  background-color: blue;
+}
+
+.btnYellow {
+  background-color: yellow;
+}
+
+.btnPink {
+  background-color: pink;
+}
+
+.btnViolet {
+  background-color: violet;
+}

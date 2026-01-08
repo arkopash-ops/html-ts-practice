@@ -8,7 +8,7 @@ const decrementButton = document.getElementById(
   "decrement"
 ) as HTMLButtonElement;
 
-let currentCount = 0;
+let currentCount: number = 0;
 
 if (count && incrementButton && decrementButton) {
   const updateCountDisplay = () => {
