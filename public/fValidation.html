@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+<link rel="stylesheet" href="./css/fValidation.css">
+</head>
+<body>
+
+    <form id="form">
+        <h2>Register</h2>
+
+        <input type="text" id="name" placeholder="Name">
+        <div class="error" id="nameError"></div>
+
+        <input type="text" id="email" placeholder="Email">
+        <div class="error" id="emailError"></div>
+
+        <input type="password" id="password" placeholder="Password">
+        <div class="error" id="passwordError"></div>
+
+        <button type="submit">Submit</button>
+
+        <div class="success" id="successMsg"></div>
+    </form>
+    <script type="module" src="../dist/fvakidation.js"></script>
+</body>
+</html>
