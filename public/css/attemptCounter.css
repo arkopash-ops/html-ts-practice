@@ -1,0 +1,35 @@
+body {
+  font-family: cursive;
+  margin: 50px;
+  background-color: black;
+  color: white;
+}
+
+input,
+button {
+  padding: 8px;
+  margin: 5px 10px;
+  font-size: 16px;
+  font-family: cursive;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+button:hover {
+  background-color: greenyellow;
+  color: black;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+p {
+  margin-top: 10px;
+  color: red;
+}
