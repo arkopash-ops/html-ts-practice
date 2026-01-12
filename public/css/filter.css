@@ -1,0 +1,81 @@
+body {
+  font-family: cursive;
+  margin: 20px;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filters {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filters label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  background-color: #0f0f0f;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  font-family: cursive;
+  border-color:tomato;
+  border-radius: 10px;
+}
+
+.range-value{
+  color: tomato;
+}
+
+input[type="range"] {
+  width: 150px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid rgb(255, 60, 25);
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: tomato;
+  color: black;
+}
+
+tfoot td {
+  font-weight: bold;
+  text-align: left;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.range-value {
+  font-weight: bold;
+}

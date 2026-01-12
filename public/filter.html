@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Product Filter</title>
+
+    <link rel="stylesheet" href="./css/filter.css" />
+  </head>
+  <body>
+    <h1>Live Product Filter</h1>
+
+    <div class="filters">
+      <div>
+        <label for="filterType">Type:</label>
+        <select id="filterType">
+          <option value="">All</option>
+          <option value="fruit">Fruit</option>
+          <option value="vegetable">Vegetable</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="filterName">Product Name:</label>
+        <input type="text" id="filterName" placeholder="Enter Product Name" />
+      </div>
+
+      <div>
+        <label for="filterPrice">
+          Max Price (₹/kg):
+          <span class="range-value" id="priceValue">120</span>
+        </label>
+        <input type="range" id="filterPrice" min="25" max="120" value="120" />
+      </div>
+    </div>
+
+    <h2>Products</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Price (₹/kg)</th>
+          <th>Buy</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mango</td>
+          <td>Fruit</td>
+          <td>120</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Apple</td>
+          <td>Fruit</td>
+          <td>80</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Potato</td>
+          <td>Vegetable</td>
+          <td>25</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>Papaya</td>
+          <td>Fruit</td>
+          <td>65</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>Cabbage</td>
+          <td>Vegetable</td>
+          <td>30</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>6</td>
+          <td>Banana</td>
+          <td>Fruit</td>
+          <td>50</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>7</td>
+          <td>Onion</td>
+          <td>Vegetable</td>
+          <td>35</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>8</td>
+          <td>Grapes</td>
+          <td>Fruit</td>
+          <td>70</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>9</td>
+          <td>Carrot</td>
+          <td>Vegetable</td>
+          <td>60</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>10</td>
+          <td>Spinach</td>
+          <td>Vegetable</td>
+          <td>20</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>11</td>
+          <td>Watermelon</td>
+          <td>Fruit</td>
+          <td>45</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>12</td>
+          <td>Orange</td>
+          <td>Fruit</td>
+          <td>90</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>13</td>
+          <td>Tomato</td>
+          <td>Vegetable</td>
+          <td>40</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>14</td>
+          <td>Pineapple</td>
+          <td>Fruit</td>
+          <td>110</td>
+          <td><button>Buy</button></td>
+        </tr>
+
+        <tr>
+          <td>15</td>
+          <td>Cauliflower</td>
+          <td>Vegetable</td>
+          <td>55</td>
+          <td><button>Buy</button></td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="5">Total Items: 15</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <script type="module" src="../dist/filter.js"></script>
+  </body>
+</html>
